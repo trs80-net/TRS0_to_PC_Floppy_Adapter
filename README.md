@@ -2,4 +2,4 @@
 
 An adapter to connect 'modern' floppies to TRS-80 1,2,3,4,12, & 16 machines.
 
-PCB files are currently INCORRECT.  Corrected ones WILL be added shortly.
+PCB files are complete.  BOARD HAS NOT BEEN TESTED YET.
