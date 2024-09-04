@@ -8663,6 +8663,214 @@
 		(uuid "ff37b4a6-d61d-4802-903a-10fdae277795")
 	)
 	(symbol
+		(lib_id "74xx:74LS32")
+		(at 123.19 0 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ab371b-c775-47e8-8a0a-59137a890517")
+		(property "Reference" "U1"
+			(at 123.19 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS32"
+			(at 123.19 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GenericComponents:DIP-14pin"
+			(at 123.19 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 123.19 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-input OR"
+			(at 123.19 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b9289717-77aa-4b2a-b2f3-372bf2d0ab19")
+		)
+		(pin "3"
+			(uuid "83767030-2667-4144-bec1-d4936526abca")
+		)
+		(pin "1"
+			(uuid "9569aeaf-1965-40b5-a603-7cac40585d8e")
+		)
+		(pin "2"
+			(uuid "4bb673e1-7c9f-41ca-a00e-ec4c071d1bc6")
+		)
+		(pin "14"
+			(uuid "2208a258-f946-4525-8e30-915ada5d5d32")
+		)
+		(pin "12"
+			(uuid "8002ea0a-097a-495a-983d-606748e60b7f")
+		)
+		(pin "10"
+			(uuid "bd8f7588-6cc3-4c2e-ba0c-4b0014ff2d65")
+		)
+		(pin "8"
+			(uuid "2aea3a27-4a23-4ff7-9d3f-45cb3d81c80a")
+		)
+		(pin "13"
+			(uuid "b5fd234e-a426-4bad-9400-c049e3810ab4")
+		)
+		(pin "6"
+			(uuid "5329e7a8-0733-4783-9e9b-bf4f232e1ed2")
+		)
+		(pin "9"
+			(uuid "6eccfc51-9cbf-4552-b223-fa254e531dd3")
+		)
+		(pin "5"
+			(uuid "8a54b005-e925-4cad-b207-f0b13ae8de8a")
+		)
+		(pin "7"
+			(uuid "f323332f-4517-42fd-bea8-b3c2aaf61c2b")
+		)
+		(pin "11"
+			(uuid "230c3c83-01db-427b-a960-822a29bb9619")
+		)
+		(instances
+			(project ""
+				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS32")
+		(at 123.19 -30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a8da440-094f-440e-805b-e82cb6ba4aa0")
+		(property "Reference" "U1"
+			(at 123.19 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS32"
+			(at 123.19 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GenericComponents:DIP-14pin"
+			(at 123.19 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 123.19 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-input OR"
+			(at 123.19 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b9289717-77aa-4b2a-b2f3-372bf2d0ab19")
+		)
+		(pin "3"
+			(uuid "83767030-2667-4144-bec1-d4936526abca")
+		)
+		(pin "1"
+			(uuid "9569aeaf-1965-40b5-a603-7cac40585d8e")
+		)
+		(pin "2"
+			(uuid "4bb673e1-7c9f-41ca-a00e-ec4c071d1bc6")
+		)
+		(pin "14"
+			(uuid "2208a258-f946-4525-8e30-915ada5d5d32")
+		)
+		(pin "12"
+			(uuid "8002ea0a-097a-495a-983d-606748e60b7f")
+		)
+		(pin "10"
+			(uuid "bd8f7588-6cc3-4c2e-ba0c-4b0014ff2d65")
+		)
+		(pin "8"
+			(uuid "2aea3a27-4a23-4ff7-9d3f-45cb3d81c80a")
+		)
+		(pin "13"
+			(uuid "b5fd234e-a426-4bad-9400-c049e3810ab4")
+		)
+		(pin "6"
+			(uuid "5329e7a8-0733-4783-9e9b-bf4f232e1ed2")
+		)
+		(pin "9"
+			(uuid "6eccfc51-9cbf-4552-b223-fa254e531dd3")
+		)
+		(pin "5"
+			(uuid "8a54b005-e925-4cad-b207-f0b13ae8de8a")
+		)
+		(pin "7"
+			(uuid "f323332f-4517-42fd-bea8-b3c2aaf61c2b")
+		)
+		(pin "11"
+			(uuid "230c3c83-01db-427b-a960-822a29bb9619")
+		)
+		(instances
+			(project ""
+				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 144.78 167.64 0)
 		(unit 1)
@@ -8756,7 +8964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 127 170.18 0)
 			(effects
 				(font
@@ -8876,7 +9084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d2ea31c-a755-4df6-af11-328258403015")
-		(property "Reference" "TRS80_8inch"
+		(property "Reference" "TRS80_8inch1"
 			(at 77.47 16.51 0)
 			(effects
 				(font
@@ -9073,7 +9281,7 @@
 		(instances
 			(project "TRS80M2 50-34 Floppy Adapter"
 				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "TRS80_8inch")
+					(reference "TRS80_8inch1")
 					(unit 1)
 				)
 			)
@@ -9236,7 +9444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 102.87 156.21 0)
 			(effects
 				(font
@@ -9288,7 +9496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51f2c10d-3467-49f9-98a1-6cced3dbfc8b")
-		(property "Reference" "PC_5inch"
+		(property "Reference" "PC_5inch1"
 			(at 201.93 100.584 0)
 			(effects
 				(font
@@ -9437,7 +9645,7 @@
 		(instances
 			(project "TRS80M2 50-34 Floppy Adapter"
 				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "PC_5inch")
+					(reference "PC_5inch1")
 					(unit 1)
 				)
 			)
@@ -9469,7 +9677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 231.14 68.58 0)
 			(effects
 				(font
@@ -9512,6 +9720,110 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS32")
+		(at 123.19 -15.24 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "606a79f8-d38f-441d-9e0b-e76675371895")
+		(property "Reference" "U1"
+			(at 123.19 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS32"
+			(at 123.19 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GenericComponents:DIP-14pin"
+			(at 123.19 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 123.19 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-input OR"
+			(at 123.19 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b9289717-77aa-4b2a-b2f3-372bf2d0ab19")
+		)
+		(pin "3"
+			(uuid "83767030-2667-4144-bec1-d4936526abca")
+		)
+		(pin "1"
+			(uuid "9569aeaf-1965-40b5-a603-7cac40585d8e")
+		)
+		(pin "2"
+			(uuid "4bb673e1-7c9f-41ca-a00e-ec4c071d1bc6")
+		)
+		(pin "14"
+			(uuid "2208a258-f946-4525-8e30-915ada5d5d32")
+		)
+		(pin "12"
+			(uuid "8002ea0a-097a-495a-983d-606748e60b7f")
+		)
+		(pin "10"
+			(uuid "bd8f7588-6cc3-4c2e-ba0c-4b0014ff2d65")
+		)
+		(pin "8"
+			(uuid "2aea3a27-4a23-4ff7-9d3f-45cb3d81c80a")
+		)
+		(pin "13"
+			(uuid "b5fd234e-a426-4bad-9400-c049e3810ab4")
+		)
+		(pin "6"
+			(uuid "5329e7a8-0733-4783-9e9b-bf4f232e1ed2")
+		)
+		(pin "9"
+			(uuid "6eccfc51-9cbf-4552-b223-fa254e531dd3")
+		)
+		(pin "5"
+			(uuid "8a54b005-e925-4cad-b207-f0b13ae8de8a")
+		)
+		(pin "7"
+			(uuid "f323332f-4517-42fd-bea8-b3c2aaf61c2b")
+		)
+		(pin "11"
+			(uuid "230c3c83-01db-427b-a960-822a29bb9619")
+		)
+		(instances
+			(project ""
+				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ArfonSymbols:Resistor")
 		(at 134.62 149.86 0)
 		(unit 1)
@@ -9537,7 +9849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GenericComponents:Resistor-.4in"
 			(at 138.938 149.098 90)
 			(effects
 				(font
@@ -9580,110 +9892,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS32")
-		(at 123.19 -30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f097dbc-88a7-4644-95fc-076e7aa4ac3f")
-		(property "Reference" "U2"
-			(at 123.19 -39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS32"
-			(at 123.19 -36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 -30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 123.19 -30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 123.19 -30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80538f86-ed0c-44fb-8a4e-e020f02bd2f2")
-		)
-		(pin "5"
-			(uuid "a06be0ba-703a-4cfa-be13-49b7448e6543")
-		)
-		(pin "7"
-			(uuid "6e88f99f-30ba-457f-b53c-92191ffba0ce")
-		)
-		(pin "12"
-			(uuid "9dd45d3f-a273-4329-8a02-59645ef146e1")
-		)
-		(pin "3"
-			(uuid "31a55817-316a-4d96-8bc7-a91256da0e97")
-		)
-		(pin "14"
-			(uuid "5171e30f-8e1d-4552-9565-a5d812774cb3")
-		)
-		(pin "10"
-			(uuid "a115229c-1059-48b5-a018-d2536d3995a1")
-		)
-		(pin "13"
-			(uuid "77df637a-5a90-44d6-a3d7-7e76594e6467")
-		)
-		(pin "6"
-			(uuid "42cb9be2-8559-4947-848c-75b3cc5dfda8")
-		)
-		(pin "2"
-			(uuid "f334a131-8695-4951-9e22-0640c71daf3d")
-		)
-		(pin "8"
-			(uuid "b0b718e8-e713-4ed1-ac50-2135923044cc")
-		)
-		(pin "4"
-			(uuid "9b0724ca-63c9-45d0-aecc-543ab1b0b0c4")
-		)
-		(pin "11"
-			(uuid "37ac4b3c-ee63-408a-975f-10909bafe6d4")
-		)
-		(pin "9"
-			(uuid "0ca171bb-60c9-4fb2-bbfd-15d9c89fd7fa")
-		)
-		(instances
-			(project "TRS80M2 50-34 Floppy Adapter"
-				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 127 152.4 0)
 		(mirror y)
@@ -9712,7 +9920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 127 152.4 0)
 			(effects
 				(font
@@ -9948,7 +10156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GenericComponents:Resistor-.4in"
 			(at 138.938 154.178 90)
 			(effects
 				(font
@@ -9991,110 +10199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS32")
-		(at 123.19 -15.24 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "806c5c52-72b6-4bcf-9479-f665269ae9ba")
-		(property "Reference" "U2"
-			(at 123.19 -24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS32"
-			(at 123.19 -21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 123.19 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 123.19 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35141e96-b9a5-4582-bffd-532a08545871")
-		)
-		(pin "5"
-			(uuid "f20786fa-8df7-46c8-b849-a9b72b741ad7")
-		)
-		(pin "7"
-			(uuid "6e88f99f-30ba-457f-b53c-92191ffba0d0")
-		)
-		(pin "12"
-			(uuid "9dd45d3f-a273-4329-8a02-59645ef146e3")
-		)
-		(pin "3"
-			(uuid "13028ff0-baa9-47ea-819e-da8213759ac9")
-		)
-		(pin "14"
-			(uuid "5171e30f-8e1d-4552-9565-a5d812774cb5")
-		)
-		(pin "10"
-			(uuid "a115229c-1059-48b5-a018-d2536d3995a3")
-		)
-		(pin "13"
-			(uuid "77df637a-5a90-44d6-a3d7-7e76594e6469")
-		)
-		(pin "6"
-			(uuid "e395b140-cc1c-4def-9624-0f915e2c7e75")
-		)
-		(pin "2"
-			(uuid "68e6b19e-8d5e-4c14-9866-18b8e32533fe")
-		)
-		(pin "8"
-			(uuid "b0b718e8-e713-4ed1-ac50-2135923044ce")
-		)
-		(pin "4"
-			(uuid "559a1c95-29bc-4a73-9d67-7ada33fdde80")
-		)
-		(pin "11"
-			(uuid "37ac4b3c-ee63-408a-975f-10909bafe6d6")
-		)
-		(pin "9"
-			(uuid "0ca171bb-60c9-4fb2-bbfd-15d9c89fd7fc")
-		)
-		(instances
-			(project "TRS80M2 50-34 Floppy Adapter"
-				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 102.87 173.99 180)
 		(unit 1)
@@ -10120,7 +10224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 102.87 173.99 0)
 			(effects
 				(font
@@ -10360,110 +10464,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS32")
-		(at 123.19 0 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9280045f-89ed-4677-9cfe-d85c91a198d9")
-		(property "Reference" "U2"
-			(at 123.19 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS32"
-			(at 123.19 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 123.19 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 123.19 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35141e96-b9a5-4582-bffd-532a08545873")
-		)
-		(pin "5"
-			(uuid "a06be0ba-703a-4cfa-be13-49b7448e6547")
-		)
-		(pin "7"
-			(uuid "6e88f99f-30ba-457f-b53c-92191ffba0d2")
-		)
-		(pin "12"
-			(uuid "9dd45d3f-a273-4329-8a02-59645ef146e5")
-		)
-		(pin "3"
-			(uuid "13028ff0-baa9-47ea-819e-da8213759acb")
-		)
-		(pin "14"
-			(uuid "5171e30f-8e1d-4552-9565-a5d812774cb7")
-		)
-		(pin "10"
-			(uuid "458593c7-fd1d-4c5f-b52d-db3f9867dc76")
-		)
-		(pin "13"
-			(uuid "77df637a-5a90-44d6-a3d7-7e76594e646b")
-		)
-		(pin "6"
-			(uuid "42cb9be2-8559-4947-848c-75b3cc5dfdac")
-		)
-		(pin "2"
-			(uuid "68e6b19e-8d5e-4c14-9866-18b8e3253400")
-		)
-		(pin "8"
-			(uuid "3408c617-9c96-49b5-ba53-6df8ed23331f")
-		)
-		(pin "4"
-			(uuid "9b0724ca-63c9-45d0-aecc-543ab1b0b0c8")
-		)
-		(pin "11"
-			(uuid "37ac4b3c-ee63-408a-975f-10909bafe6d8")
-		)
-		(pin "9"
-			(uuid "73f710d3-92ef-42d6-855f-2ff585a1daf1")
-		)
-		(instances
-			(project "TRS80M2 50-34 Floppy Adapter"
-				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "GenericComponents:Capacitor_-_Polarized")
 		(at 73.66 -5.08 0)
 		(unit 1)
@@ -10490,7 +10490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GenericComponents:Capcitor Radial .200"
 			(at 87.8332 6.096 0)
 			(effects
 				(font
@@ -10560,7 +10560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -10631,7 +10631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GenericComponents:Resistor-.4in"
 			(at 138.938 171.958 90)
 			(effects
 				(font
@@ -10766,7 +10766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 116.84 152.4 0)
 			(effects
 				(font
@@ -10838,7 +10838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 102.87 148.59 0)
 			(effects
 				(font
@@ -10866,10 +10866,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "eb9da2a1-6e7d-443c-8025-5b8826649904")
+			(uuid "eb9da2a1-6e7d-443c-8025-5b8826649905")
 		)
 		(pin "1"
-			(uuid "ea051939-27ed-4198-9865-a0f0e3562fae")
+			(uuid "ea051939-27ed-4198-9865-a0f0e3562faf")
 		)
 		(instances
 			(project ""
@@ -10906,7 +10906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 123.19 26.67 0)
 			(effects
 				(font
@@ -11080,6 +11080,110 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS32")
+		(at 123.19 15.24 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba58b29d-4a97-44c4-9383-57e981786629")
+		(property "Reference" "U1"
+			(at 123.19 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS32"
+			(at 123.19 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GenericComponents:DIP-14pin"
+			(at 123.19 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 123.19 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-input OR"
+			(at 123.19 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b9289717-77aa-4b2a-b2f3-372bf2d0ab19")
+		)
+		(pin "3"
+			(uuid "83767030-2667-4144-bec1-d4936526abca")
+		)
+		(pin "1"
+			(uuid "9569aeaf-1965-40b5-a603-7cac40585d8e")
+		)
+		(pin "2"
+			(uuid "4bb673e1-7c9f-41ca-a00e-ec4c071d1bc6")
+		)
+		(pin "14"
+			(uuid "2208a258-f946-4525-8e30-915ada5d5d32")
+		)
+		(pin "12"
+			(uuid "8002ea0a-097a-495a-983d-606748e60b7f")
+		)
+		(pin "10"
+			(uuid "bd8f7588-6cc3-4c2e-ba0c-4b0014ff2d65")
+		)
+		(pin "8"
+			(uuid "2aea3a27-4a23-4ff7-9d3f-45cb3d81c80a")
+		)
+		(pin "13"
+			(uuid "b5fd234e-a426-4bad-9400-c049e3810ab4")
+		)
+		(pin "6"
+			(uuid "5329e7a8-0733-4783-9e9b-bf4f232e1ed2")
+		)
+		(pin "9"
+			(uuid "6eccfc51-9cbf-4552-b223-fa254e531dd3")
+		)
+		(pin "5"
+			(uuid "8a54b005-e925-4cad-b207-f0b13ae8de8a")
+		)
+		(pin "7"
+			(uuid "f323332f-4517-42fd-bea8-b3c2aaf61c2b")
+		)
+		(pin "11"
+			(uuid "230c3c83-01db-427b-a960-822a29bb9619")
+		)
+		(instances
+			(project ""
+				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 144.78 0)
 		(mirror y)
@@ -11142,215 +11246,6 @@
 				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
 					(reference "#PWR08")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS32")
-		(at 123.19 15.24 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3e44c29-d97b-4c7f-a86a-0ea4a304449a")
-		(property "Reference" "U2"
-			(at 123.19 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS32"
-			(at 123.19 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 123.19 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 123.19 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35141e96-b9a5-4582-bffd-532a08545870")
-		)
-		(pin "5"
-			(uuid "a06be0ba-703a-4cfa-be13-49b7448e6544")
-		)
-		(pin "7"
-			(uuid "6e88f99f-30ba-457f-b53c-92191ffba0cf")
-		)
-		(pin "12"
-			(uuid "637117b0-9b1e-4bc2-98c8-1ac5c8fbccff")
-		)
-		(pin "3"
-			(uuid "13028ff0-baa9-47ea-819e-da8213759ac8")
-		)
-		(pin "14"
-			(uuid "5171e30f-8e1d-4552-9565-a5d812774cb4")
-		)
-		(pin "10"
-			(uuid "a115229c-1059-48b5-a018-d2536d3995a2")
-		)
-		(pin "13"
-			(uuid "d87c0c31-71b5-45f5-918f-ec46bcf089e7")
-		)
-		(pin "6"
-			(uuid "42cb9be2-8559-4947-848c-75b3cc5dfda9")
-		)
-		(pin "2"
-			(uuid "68e6b19e-8d5e-4c14-9866-18b8e32533fd")
-		)
-		(pin "8"
-			(uuid "b0b718e8-e713-4ed1-ac50-2135923044cd")
-		)
-		(pin "4"
-			(uuid "9b0724ca-63c9-45d0-aecc-543ab1b0b0c5")
-		)
-		(pin "11"
-			(uuid "5c869df3-c6aa-492e-b478-f08196ac90cd")
-		)
-		(pin "9"
-			(uuid "0ca171bb-60c9-4fb2-bbfd-15d9c89fd7fb")
-		)
-		(instances
-			(project "TRS80M2 50-34 Floppy Adapter"
-				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "U2")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS32")
-		(at 83.82 -12.7 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8b62e96-af94-43c6-8deb-f573ca101277")
-		(property "Reference" "U1"
-			(at 84.582 -21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS32"
-			(at 79.756 -12.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 83.82 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 83.82 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35141e96-b9a5-4582-bffd-532a08545872")
-		)
-		(pin "5"
-			(uuid "a06be0ba-703a-4cfa-be13-49b7448e6546")
-		)
-		(pin "7"
-			(uuid "6e88f99f-30ba-457f-b53c-92191ffba0d1")
-		)
-		(pin "12"
-			(uuid "9dd45d3f-a273-4329-8a02-59645ef146e4")
-		)
-		(pin "3"
-			(uuid "13028ff0-baa9-47ea-819e-da8213759aca")
-		)
-		(pin "14"
-			(uuid "5171e30f-8e1d-4552-9565-a5d812774cb6")
-		)
-		(pin "10"
-			(uuid "a115229c-1059-48b5-a018-d2536d3995a4")
-		)
-		(pin "13"
-			(uuid "77df637a-5a90-44d6-a3d7-7e76594e646a")
-		)
-		(pin "6"
-			(uuid "42cb9be2-8559-4947-848c-75b3cc5dfdab")
-		)
-		(pin "2"
-			(uuid "68e6b19e-8d5e-4c14-9866-18b8e32533ff")
-		)
-		(pin "8"
-			(uuid "b0b718e8-e713-4ed1-ac50-2135923044cf")
-		)
-		(pin "4"
-			(uuid "9b0724ca-63c9-45d0-aecc-543ab1b0b0c7")
-		)
-		(pin "11"
-			(uuid "37ac4b3c-ee63-408a-975f-10909bafe6d7")
-		)
-		(pin "9"
-			(uuid "0ca171bb-60c9-4fb2-bbfd-15d9c89fd7fd")
-		)
-		(instances
-			(project ""
-				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "U1")
-					(unit 5)
 				)
 			)
 		)
@@ -11422,6 +11317,111 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS32")
+		(at 83.82 -12.7 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7d1122f-79a0-448a-b7c9-3eb329d9eeae")
+		(property "Reference" "U1"
+			(at 85.09 -21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS32"
+			(at 81.026 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenericComponents:DIP-14pin"
+			(at 83.82 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 83.82 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-input OR"
+			(at 83.82 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b9289717-77aa-4b2a-b2f3-372bf2d0ab19")
+		)
+		(pin "3"
+			(uuid "83767030-2667-4144-bec1-d4936526abca")
+		)
+		(pin "1"
+			(uuid "9569aeaf-1965-40b5-a603-7cac40585d8e")
+		)
+		(pin "2"
+			(uuid "4bb673e1-7c9f-41ca-a00e-ec4c071d1bc6")
+		)
+		(pin "14"
+			(uuid "2208a258-f946-4525-8e30-915ada5d5d32")
+		)
+		(pin "12"
+			(uuid "8002ea0a-097a-495a-983d-606748e60b7f")
+		)
+		(pin "10"
+			(uuid "bd8f7588-6cc3-4c2e-ba0c-4b0014ff2d65")
+		)
+		(pin "8"
+			(uuid "2aea3a27-4a23-4ff7-9d3f-45cb3d81c80a")
+		)
+		(pin "13"
+			(uuid "b5fd234e-a426-4bad-9400-c049e3810ab4")
+		)
+		(pin "6"
+			(uuid "5329e7a8-0733-4783-9e9b-bf4f232e1ed2")
+		)
+		(pin "9"
+			(uuid "6eccfc51-9cbf-4552-b223-fa254e531dd3")
+		)
+		(pin "5"
+			(uuid "8a54b005-e925-4cad-b207-f0b13ae8de8a")
+		)
+		(pin "7"
+			(uuid "f323332f-4517-42fd-bea8-b3c2aaf61c2b")
+		)
+		(pin "11"
+			(uuid "230c3c83-01db-427b-a960-822a29bb9619")
+		)
+		(instances
+			(project ""
+				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ArfonSymbols:Resistor")
 		(at 134.62 167.64 0)
 		(unit 1)
@@ -11447,7 +11447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GenericComponents:Resistor-.4in"
 			(at 138.938 166.878 90)
 			(effects
 				(font
@@ -11498,7 +11498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eddda5b2-82e9-48ad-892b-8562dcab6980")
-		(property "Reference" "TRS80-5inch"
+		(property "Reference" "TRS80-5inch1"
 			(at 77.47 100.584 0)
 			(effects
 				(font
@@ -11647,7 +11647,7 @@
 		(instances
 			(project "TRS80M2 50-34 Floppy Adapter"
 				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "TRS80-5inch")
+					(reference "TRS80-5inch1")
 					(unit 1)
 				)
 			)
@@ -11810,7 +11810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 102.87 166.37 0)
 			(effects
 				(font
