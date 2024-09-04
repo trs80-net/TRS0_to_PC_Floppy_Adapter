@@ -8554,7 +8554,7 @@
 	)
 	(text "Power In"
 		(exclude_from_sim no)
-		(at 234.188 62.738 0)
+		(at 197.358 -21.082 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8945,7 +8945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e1fb4b8-943b-4cbd-bc77-f53ad9326600")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 125.73 168.9099 0)
 			(effects
 				(font
@@ -9003,7 +9003,7 @@
 		(instances
 			(project "TRS80M2 50-34 Floppy Adapter"
 				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9289,7 +9289,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 226.06 68.58 0)
+		(at 189.23 -15.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9297,7 +9297,7 @@
 		(dnp no)
 		(uuid "320ec8e1-851f-46e1-92b1-5e9dd102f78e")
 		(property "Reference" "#PWR012"
-			(at 226.06 72.39 0)
+			(at 189.23 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9306,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 63.5 0)
+			(at 189.23 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 68.58 0)
+			(at 189.23 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 68.58 0)
+			(at 189.23 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 68.58 0)
+			(at 189.23 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,15 +9653,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 231.14 68.58 0)
+		(at 194.31 -15.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "57be8c10-acc8-4c21-8f15-bf0aaa4823cc")
-		(property "Reference" "J3"
-			(at 232.41 66.04 0)
+		(property "Reference" "J2"
+			(at 195.58 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9669,7 +9669,7 @@
 			)
 		)
 		(property "Value" "Conn_02x01"
-			(at 232.41 64.77 0)
+			(at 195.58 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,7 +9678,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 231.14 68.58 0)
+			(at 194.31 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9687,7 +9687,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 68.58 0)
+			(at 194.31 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9696,7 +9696,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 231.14 68.58 0)
+			(at 194.31 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +9713,7 @@
 		(instances
 			(project "TRS80M2 50-34 Floppy Adapter"
 				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9849,7 +9849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "GenericComponents:Resistor-.4in"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 138.938 149.098 90)
 			(effects
 				(font
@@ -9901,7 +9901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7322a1f3-6ace-4e1a-a948-432b91c9e0c1")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 125.73 151.1299 0)
 			(effects
 				(font
@@ -9959,7 +9959,7 @@
 		(instances
 			(project "TRS80M2 50-34 Floppy Adapter"
 				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10156,7 +10156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "GenericComponents:Resistor-.4in"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 138.938 154.178 90)
 			(effects
 				(font
@@ -10333,7 +10333,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 68.58 0)
+		(at 201.93 -15.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10342,7 +10342,7 @@
 		(fields_autoplaced yes)
 		(uuid "86b95925-0fad-41df-a51f-3ae40ccd6db1")
 		(property "Reference" "#PWR011"
-			(at 238.76 74.93 0)
+			(at 201.93 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,7 +10351,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 73.66 0)
+			(at 201.93 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,7 +10359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 68.58 0)
+			(at 201.93 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10368,7 +10368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 68.58 0)
+			(at 201.93 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10377,7 +10377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 68.58 0)
+			(at 201.93 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10541,7 +10541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3a8ccf1-dd7c-403d-9dd6-4db1ee0e07f8")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 119.38 168.9099 0)
 			(effects
 				(font
@@ -10599,7 +10599,7 @@
 		(instances
 			(project "TRS80M2 50-34 Floppy Adapter"
 				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10631,7 +10631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "GenericComponents:Resistor-.4in"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 138.938 171.958 90)
 			(effects
 				(font
@@ -10747,7 +10747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a846e40f-ef33-4ab2-bbcd-1e2139b2ad37")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 119.38 151.1299 0)
 			(effects
 				(font
@@ -10805,7 +10805,7 @@
 		(instances
 			(project "TRS80M2 50-34 Floppy Adapter"
 				(path "/f29434cd-fd41-45dc-9c32-41e112fe785e"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11447,7 +11447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "GenericComponents:Resistor-.4in"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 138.938 166.878 90)
 			(effects
 				(font
