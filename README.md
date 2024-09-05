@@ -6,3 +6,5 @@ PCB files are complete.  BOARD HAS NOT BEEN TESTED YET.
 
 
 ***I NEED TESTERS! If you will test, I'll send you a free board.***
+
+![image](https://github.com/user-attachments/assets/57a52144-4286-4f74-a396-a6f675874add)
